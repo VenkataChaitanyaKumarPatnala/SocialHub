@@ -1,0 +1,66 @@
+.storiesWrap {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 4px 2px 8px;
+  scrollbar-width: none;
+}
+.storiesWrap::-webkit-scrollbar { display: none; }
+
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.storyBtn { padding: 0; }
+
+.addStory {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.addBtn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  background: var(--accent-primary);
+  color: white;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--bg-secondary);
+  line-height: 1;
+}
+
+.ring {
+  padding: 3px;
+  border-radius: 50%;
+  background: var(--accent-gradient);
+  transition: transform var(--transition);
+}
+.ring:hover { transform: scale(1.05); }
+.ring.viewed {
+  background: var(--border-color);
+}
+
+.storyName {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  max-width: 64px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

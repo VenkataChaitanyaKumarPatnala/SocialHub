@@ -1,0 +1,54 @@
+.page {
+  padding: 24px 20px;
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skProfile { height: 320px; border-radius: var(--border-radius-lg); }
+.skPost { height: 200px; border-radius: var(--border-radius-lg); }
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  background: var(--bg-secondary);
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: 6px;
+}
+.tab {
+  flex: 1;
+  background: none;
+  border: none;
+  padding: 10px;
+  border-radius: var(--border-radius);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition);
+}
+.tab:hover { background: var(--bg-hover); color: var(--text-primary); }
+.activeTab { background: var(--accent-gradient) !important; color: white !important; }
+
+.feed { display: flex; flex-direction: column; gap: 16px; }
+
+.notFound {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-muted);
+}
+.notFound span { font-size: 48px; display: block; margin-bottom: 12px; }
+.notFound h2 { font-size: 20px; color: var(--text-primary); margin-bottom: 8px; }
+
+.emptyPosts {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-muted);
+  background: var(--bg-secondary);
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+}
+.emptyPosts span { font-size: 36px; display: block; margin-bottom: 8px; }
