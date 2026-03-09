@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SocialHub/static/css/main.d29abd59.css",
+    "main.js": "/SocialHub/static/js/main.f0f4f203.js",
+    "static/js/453.8f6979ce.chunk.js": "/SocialHub/static/js/453.8f6979ce.chunk.js",
+    "index.html": "/SocialHub/index.html",
+    "main.d29abd59.css.map": "/SocialHub/static/css/main.d29abd59.css.map",
+    "main.f0f4f203.js.map": "/SocialHub/static/js/main.f0f4f203.js.map",
+    "453.8f6979ce.chunk.js.map": "/SocialHub/static/js/453.8f6979ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d29abd59.css",
+    "static/js/main.f0f4f203.js"
+  ]
+}
